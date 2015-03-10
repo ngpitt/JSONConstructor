@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For JSONConstructor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+JSONConstructor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+buffer	KEYWORD2
+addString	KEYWORD2
+addLong	KEYWORD2
+addObject	KEYWORD2
+addBool	KEYWORD2
+addStringArray	KEYWORD2
+addLongArray	KEYWORD2
+addObjectArray	KEYWORD2
+addBoolArray	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
