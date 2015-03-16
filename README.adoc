@@ -3,7 +3,7 @@
 The JSONConstructor library allows for easy creation of JSON objects. It supports strings, longs, objects, and bools.
 
 For more information about this library please visit us at
-http://github.com/ngpitt/HTTPRequest
+http://github.com/ngpitt/JSONConstructor
 
 == License ==
 
