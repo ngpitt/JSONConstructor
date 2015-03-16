@@ -13,13 +13,9 @@ template <size_t T>
 class JSON {
 public:
   JSON() {
-    buffer_ = new char[T];
     snprintf(buffer_, T, "{}");
   }
-  ~JSON() {
-    delete[] buffer_;
-  }
-  char *buffer() const { return buffer_; }
+  char *buffer() { return buffer_; }
   void addString(char *name, char *value) {
     size_t length;
 
@@ -106,7 +102,7 @@ public:
   }
 
 private:
-  char *buffer_;
+  char buffer_[T];
 
   size_t end() { return strlen(buffer_) - 1; }
   void addSeparator() {
